@@ -1,0 +1,70 @@
+@import url("https://fonts.cdnfonts.com/css/aok-buenos-aires");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "AOK Buenos Aires", sans-serif;
+}
+body {
+  background:linear-gradient(to right, #fff0f1fc, #fff, #fff0f1fc);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.blu {
+  width: 125px;
+  height: 52px;
+  border: solid 1px blue;
+  background-color: blue;
+  border-radius: 100px;
+  padding: 15px 30px;
+
+  a {
+    color: rgb(246, 246, 247);
+  }
+}
+main {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+section {
+  width: 80%;
+  height: calc(100vh - 100px);
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;   
+  gap: 35px;
+}
+h1 {
+  font-size: 96px;
+    
+}
+p{
+ font-size: 30px;
+ width: 70%;
+        
+}
